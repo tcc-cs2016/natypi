@@ -18,5 +18,3 @@ def run(**args):
                 result += 'port : %s\tstate : %s\n' % (port, nm[host][proto][port]['state'])
 
     return result
-
-print run()
