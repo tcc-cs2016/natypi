@@ -2,7 +2,7 @@ import nmap
 
 def run(**args):
     nm = nmap.PortScanner()
-    nm.scan('192.168.0.1/24', '21-443')
+    nm.scan('192.168.0.1', '21-443')
     result = nm.command_line() + '\n'
     for host in nm.all_hosts():
         result += '----------------------------------------------------\n'
