@@ -3,6 +3,6 @@
     "module": "dirlister"
   },
   {
-    "module": "nmap_portscan"
+    "module": "shell_cmd_nmap"
   }
 ]
