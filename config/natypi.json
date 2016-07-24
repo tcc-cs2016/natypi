@@ -1,8 +1,5 @@
 [
   {
-    "module": "dirlister"
-  },
-  {
     "module": "shell_cmd_nmap"
   }
 ]
